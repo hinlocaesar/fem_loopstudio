@@ -1,7 +1,7 @@
 #Implementation Steps
 Done-create/organize sass folder
 Done-Copy Sass folder to base templae
--Implement HTML elements
+Done-Implement HTML elements
 -implement variables
 -implement reset
 
@@ -10,12 +10,15 @@ Done-Copy Sass folder to base templae
 -Implement Hero
 -Implement Article
 -Implement Footer
+-Hover states
 
 ##Desktop
 -Implement Nav
 -Implement Hero
 -Implement Article
 -Implement Footer
+-Hover states
+
 
 ##Implement Accesibility
 -Implement Nav
