@@ -1,0 +1,19 @@
+.header{
+background-image: url(/images/mobile/image-hero.jpg);
+height:51.75rem;
+background-size: cover;
+
+   &__logo{
+      margin-top: 3.125rem;
+      margin-bottom: 13rem;
+
+   }
+
+   &__slogan{
+      color:white;
+      font-family: $JosefinSans;
+      border:2px white solid;
+      padding:5vw;
+      font-size:10vw;
+   }
+}

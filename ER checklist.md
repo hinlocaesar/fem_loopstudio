@@ -2,8 +2,8 @@
 Done-create/organize sass folder
 Done-Copy Sass folder to base templae
 Done-Implement HTML elements
--implement variables
--implement reset
+Done-implement variables
+Done-implement reset
 
 ##Mobile
 -Implement Nav

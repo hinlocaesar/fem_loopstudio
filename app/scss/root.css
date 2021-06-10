@@ -60,4 +60,33 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.margin_util_leftandright {
+  margin-left: 9.375vw;
+  margin-right: 9.375vw;
+}
+
+.header {
+  background-image: url(/images/mobile/image-hero.jpg);
+  height: 51.75rem;
+  background-size: cover;
+}
+
+.header__logo {
+  margin-top: 3.125rem;
+  margin-bottom: 13rem;
+}
+
+.header__slogan {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  border: 2px white solid;
+  padding: 5vw;
+  font-size: 10vw;
+}
 /*# sourceMappingURL=root.css.map */
