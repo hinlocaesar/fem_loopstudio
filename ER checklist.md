@@ -6,6 +6,8 @@ Done-implement variables
 Done-implement reset
 
 ##Mobile
+Done-Implement BG Image
+Done-Implement Logo
 -Implement Nav
 -Implement Hero
 -Implement Article
@@ -13,6 +15,8 @@ Done-implement reset
 -Hover states
 
 ##Desktop
+-Implement BG Image
+-Implement Logo
 -Implement Nav
 -Implement Hero
 -Implement Article
