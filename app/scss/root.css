@@ -175,7 +175,7 @@ table {
 }
 
 .header__mobile {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -189,5 +189,6 @@ table {
 
 .header__mobile__navigation {
   margin-top: 100px;
+  color: white;
 }
 /*# sourceMappingURL=root.css.map */

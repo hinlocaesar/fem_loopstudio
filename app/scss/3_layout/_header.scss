@@ -29,7 +29,7 @@ background-size: contain;
    }
 
    &__mobile{
-      position: fixed;
+      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
@@ -42,6 +42,8 @@ background-size: contain;
 
       &__navigation{
          margin-top: 100px;
+         color:white;
+
       }
    }
 
