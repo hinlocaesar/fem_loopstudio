@@ -3,13 +3,12 @@ background: url(/images/mobile/image-hero.jpg) no-repeat;
 height:51.75rem;
 width: 100%;
 background-size: contain;
-   
+
    &__nav{
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap:wrap ;
-      padding-top: 3.25rem;
       padding-bottom: 13.3rem;
    }
 

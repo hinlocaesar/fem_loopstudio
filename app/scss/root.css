@@ -88,17 +88,12 @@ table {
   cursor: pointer;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  /* border: 3px solid #fff; */
 }
 
 .menu-btn__burger {
-  height: 1.6rem;
   width: 2.125rem;
   height: 0.18rem;
   background: #fff;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-          box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
@@ -110,21 +105,18 @@ table {
   width: 2.125rem;
   height: 0.18rem;
   background: #fff;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-          box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 
 .menu-btn__burger::before {
-  -webkit-transform: translateY(-16px);
-          transform: translateY(-16px);
+  -webkit-transform: translateY(-0.6rem);
+          transform: translateY(-0.6rem);
 }
 
 .menu-btn__burger::after {
-  -webkit-transform: translateY(16px);
-          transform: translateY(16px);
+  -webkit-transform: translateY(0.6rem);
+          transform: translateY(0.6rem);
 }
 
 /* ANIMATION */
@@ -165,7 +157,6 @@ table {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 3.25rem;
   padding-bottom: 13.3rem;
 }
 
