@@ -88,6 +88,7 @@ table {
   cursor: pointer;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
+  z-index: 100;
 }
 
 .menu-btn__burger {
@@ -162,6 +163,7 @@ table {
 
 .header__logo {
   height: 1.6rem;
+  z-index: 99;
 }
 
 .header__slogan {
@@ -170,5 +172,22 @@ table {
   border: 2px white solid;
   padding: 5vw;
   font-size: 10vw;
+}
+
+.header__mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 98;
+  background-color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10vw;
+  color: white;
+}
+
+.header__mobile__navigation {
+  margin-top: 100px;
 }
 /*# sourceMappingURL=root.css.map */
