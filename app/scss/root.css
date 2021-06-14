@@ -71,6 +71,11 @@ table {
   margin-right: 9.375vw;
 }
 
+.margin_util_topandbottom {
+  margin-top: 9.375vw;
+  margin-bottom: 9.375vw;
+}
+
 .menu-btn {
   height: 1.6rem;
   position: relative;
@@ -196,5 +201,9 @@ table {
 .header__mobile__navigation {
   color: white;
   line-height: 4rem;
+}
+
+.container__aboutImg__link {
+  width: 100%;
 }
 /*# sourceMappingURL=root.css.map */

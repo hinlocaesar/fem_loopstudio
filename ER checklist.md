@@ -8,8 +8,8 @@ Done-implement reset
 ##Mobile
 Done-Implement BG Image
 Done-Implement Logo
--Implement Nav
--Implement Hero
+Done-Implement Nav
+Done--Implement Hero
 -Implement Article
 -Implement Footer
 -Hover states
