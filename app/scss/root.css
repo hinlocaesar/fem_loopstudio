@@ -185,10 +185,16 @@ table {
   font-family: "Josefin Sans", sans-serif;
   font-size: 10vw;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__mobile__navigation {
-  margin-top: 100px;
   color: white;
+  line-height: 4rem;
 }
 /*# sourceMappingURL=root.css.map */
