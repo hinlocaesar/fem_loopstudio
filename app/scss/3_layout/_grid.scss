@@ -5,19 +5,27 @@
         text-align: center;
     }
 
+
     &__grid{
 
+
         &__card{
+         position: relative;
+         margin-bottom: 1rem;
+     
             &__img{
-                width: 100%;
+             width: 100%;
             }
 
             &__text{
-                position: relative;
-                bottom: 20vw;
+        
+                position: absolute;
+   
                 color: white;
-                font-size: 8vw;
+                font-size: 6vw;
+                top:12vw;
                 left:  5vw;
+              
      
             }
         }
