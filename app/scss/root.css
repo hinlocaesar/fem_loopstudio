@@ -255,18 +255,24 @@ table {
   padding-top: 2rem;
 }
 
+.footer__icons {
+  padding-top: 2rem;
+  font-size: 7vw;
+}
+
 .footer__navigation {
   padding-top: 2rem;
 }
 
 .footer__navigation__option {
   padding: 0.5rem;
-  font-size: 0.75rem;
+  font-size: 4vw;
 }
 
 .copyright {
   padding-top: 1rem;
   color: dimgray;
   font-size: 0.75rem;
+  padding-bottom: 15vw;
 }
 /*# sourceMappingURL=root.css.map */
