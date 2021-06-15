@@ -206,4 +206,10 @@ table {
   width: 100%;
   text-align: center;
 }
+
+.about {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10vw;
+  text-align: center;
+}
 /*# sourceMappingURL=root.css.map */
