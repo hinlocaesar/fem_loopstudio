@@ -1,0 +1,21 @@
+.footer{
+    font-family: $JosefinSans;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding-top: 2rem;
+
+    &__navigation{
+        padding-top: 2rem;
+        &__option{
+            padding:0.5rem;
+            font-size: 0.75rem;
+        }
+    }
+}
+
+.copyright{
+    padding-top: 1rem;
+    color:$VeryDarkGray;
+    font-size: 0.75rem;
+}

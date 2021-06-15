@@ -246,4 +246,27 @@ table {
   top: 12vw;
   left: 5vw;
 }
+
+.footer {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.footer__navigation {
+  padding-top: 2rem;
+}
+
+.footer__navigation__option {
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.copyright {
+  padding-top: 1rem;
+  color: dimgray;
+  font-size: 0.75rem;
+}
 /*# sourceMappingURL=root.css.map */
