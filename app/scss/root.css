@@ -207,9 +207,17 @@ table {
   text-align: center;
 }
 
-.about {
+.about__title {
   font-family: "Josefin Sans", sans-serif;
   font-size: 10vw;
   text-align: center;
+}
+
+.about__content {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  color: dimgray;
 }
 /*# sourceMappingURL=root.css.map */

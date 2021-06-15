@@ -4,7 +4,18 @@
 }
 
 .about{
-    font-family: $JosefinSans;
-    font-size:10vw;
-    text-align: center;
+
+    &__title{
+        font-family: $JosefinSans;
+        font-size:10vw;
+        text-align: center;
+    }
+
+    &__content{
+        font-family: $JosefinSans;
+        font-weight: bold;
+        font-size:1rem;
+        text-align: center;
+        color:$VeryDarkGray;
+    }
 }
