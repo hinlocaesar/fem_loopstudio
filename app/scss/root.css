@@ -220,4 +220,25 @@ table {
   text-align: center;
   color: dimgray;
 }
+
+.portfolio {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.portfolio__title {
+  font-size: 9vw;
+  text-align: center;
+}
+
+.portfolio__grid__card__img {
+  width: 100%;
+}
+
+.portfolio__grid__card__text {
+  position: relative;
+  bottom: 20vw;
+  color: white;
+  font-size: 8vw;
+  left: 5vw;
+}
 /*# sourceMappingURL=root.css.map */
