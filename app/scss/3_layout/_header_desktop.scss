@@ -1,0 +1,38 @@
+@media only screen and (min-width: 600px) { //for desktop
+   .header{
+      background-color: grey;
+   }
+/*
+.header{
+   background-color: blue;
+   height: 109vh;
+
+   &__nav{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 13.3rem;
+
+   }
+
+   &__logo{
+      height: 1.6rem;
+      z-index:99;
+   }
+
+   &__menu__navigation{
+      width:100px;
+      background-color: yellow;
+      display: flex;
+     
+
+      &__content{
+         outline: 2px red solid;
+         margin-top: 10px;
+         width:50px;
+      }
+   }
+
+}
+*/
+} //media query end

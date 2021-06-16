@@ -76,133 +76,164 @@ table {
   margin-bottom: 2.18rem;
 }
 
-.menu-btn {
-  height: 1.6rem;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  z-index: 100;
+@media only screen and (max-width: 600px) {
+  .menu-btn {
+    height: 1.6rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    z-index: 100;
+  }
+  .menu-btn__burger {
+    width: 2.125rem;
+    height: 0.18rem;
+    background: #fff;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 2.125rem;
+    height: 0.18rem;
+    background: #fff;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before {
+    -webkit-transform: translateY(-0.6rem);
+            transform: translateY(-0.6rem);
+  }
+  .menu-btn__burger::after {
+    -webkit-transform: translateY(0.6rem);
+            transform: translateY(0.6rem);
+  }
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .menu-btn.open .menu-btn__burger::before {
+    -webkit-transform: rotate(45deg) translate(35px, -35px);
+            transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn__burger::after {
+    -webkit-transform: rotate(-45deg) translate(35px, 35px);
+            transform: rotate(-45deg) translate(35px, 35px);
+  }
 }
 
-.menu-btn__burger {
-  width: 2.125rem;
-  height: 0.18rem;
-  background: #fff;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+@media only screen and (max-width: 600px) {
+  .header {
+    background: url(/images/mobile/image-hero.jpg) no-repeat;
+    background-size: cover;
+    height: 109vh;
+  }
+  .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 13.3rem;
+  }
+  .header__logo {
+    height: 1.6rem;
+    z-index: 99;
+  }
+  .header__slogan {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    border: 2px white solid;
+    padding: 5vw;
+    font-size: 10vw;
+  }
+  .header__menu {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    visibility: hidden;
+  }
+  .header__menu__navigation {
+    color: white;
+    line-height: 4rem;
+    font-size: 10vw;
+    font-family: "Josefin Sans", sans-serif;
+  }
 }
 
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-  content: '';
-  position: absolute;
-  width: 2.125rem;
-  height: 0.18rem;
-  background: #fff;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-}
+@media only screen and (min-width: 600px) {
+  .header {
+    background-color: grey;
+  }
+  /*
+.header{
+   background-color: blue;
+   height: 109vh;
 
-.menu-btn__burger::before {
-  -webkit-transform: translateY(-0.6rem);
-          transform: translateY(-0.6rem);
-}
+   &__nav{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 13.3rem;
 
-.menu-btn__burger::after {
-  -webkit-transform: translateY(0.6rem);
-          transform: translateY(0.6rem);
-}
+   }
 
-/* ANIMATION */
-.menu-btn.open .menu-btn__burger {
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
-  background: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
+   &__logo{
+      height: 1.6rem;
+      z-index:99;
+   }
 
-.menu-btn.open .menu-btn__burger::before {
-  -webkit-transform: rotate(45deg) translate(35px, -35px);
-          transform: rotate(45deg) translate(35px, -35px);
-}
+   &__menu__navigation{
+      width:100px;
+      background-color: yellow;
+      display: flex;
+     
 
-.menu-btn.open .menu-btn__burger::after {
-  -webkit-transform: rotate(-45deg) translate(35px, 35px);
-          transform: rotate(-45deg) translate(35px, 35px);
-}
+      &__content{
+         outline: 2px red solid;
+         margin-top: 10px;
+         width:50px;
+      }
+   }
 
-.header {
-  background: url(/images/mobile/image-hero.jpg) no-repeat;
-  background-size: cover;
-  height: 109vh;
 }
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-bottom: 13.3rem;
-}
-
-.header__logo {
-  height: 1.6rem;
-  z-index: 99;
-}
-
-.header__slogan {
-  color: white;
-  font-family: "Josefin Sans", sans-serif;
-  border: 2px white solid;
-  padding: 5vw;
-  font-size: 10vw;
-}
-
-.header__menu {
-  background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 98;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  visibility: hidden;
-}
-
-.header__menu__navigation {
-  color: white;
-  line-height: 4rem;
-  font-size: 10vw;
-  font-family: "Josefin Sans", sans-serif;
+*/
 }
 
 .container__aboutImg__link {
