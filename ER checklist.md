@@ -10,13 +10,17 @@ Done-Implement BG Image
 Done-Implement Logo
 Done-Implement Nav
 Done--Implement Hero
--Implement Article
--Implement Footer
--Hover states
+Done-Implement Article
+Done-Implement Footer
+Done-Hover states
 
 ##Desktop
--Implement BG Image
--Implement Logo
+-URGENT!!! Rever implementation from desktop to mobile
+  -remove desktop files
+  -implement media queries change from mobile to desktop in one file
+  -test if implementation did not break
+DONE-Implement BG Image
+DONE-Implement Logo
 -Implement Nav
 -Implement Hero
 -Implement Article

@@ -1,52 +1,49 @@
-.header{
-background: url(/images/mobile/image-hero.jpg) no-repeat;
-background-size: cover;
-height: 109vh;
+@media only screen and (max-width: $Mobile) {
+      .header{
+      background: url(/images/mobile/image-hero.jpg) no-repeat;
+      background-size: cover;
+      height: 109vh;
 
-   &__nav{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap:wrap ;
-      padding-bottom: 13.3rem;
- 
-   }
-
-   &__logo{
-      height: 1.6rem;
-      z-index:99;
-   }
- 
-
-   &__slogan{
-      color:white;
-      font-family: $JosefinSans;
-      border:2px white solid;
-      padding:5vw;
-      font-size:10vw;
-   }
-
-   &__mobile{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index:98;
-      background-color: black;
-      font-family: $JosefinSans;
-      font-size:10vw;
-      color: white;
-      display: flex;
-      align-items: center;
-
-      &__navigation{
+         &__nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap:wrap ;
+            margin-bottom: 13.3rem;
       
-         color:white;
-         line-height: 4rem;
+         }
 
-      }
-   }
+         &__logo{
+            height: 1.6rem;
+            z-index:99;
+         }
+      
+         &__slogan{
+            color:white;
+            font-family: $JosefinSans;
+            border:2px white solid;
+            padding:5vw;
+            font-size:10vw;
+         }
 
+            &__menu{
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 100%;
+               height: 100%;
+               z-index:98;
+               background-color: black;
+               font-family: $JosefinSans;
+               font-size:10vw;
+               color: white;
+               display: flex;
+               align-items: center;
 
-}
+               &__navigation{
+                  color:white;
+                  line-height: 4rem;
+               } // navigation end
+            }//menu end
+         }
+}//media query end
