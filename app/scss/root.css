@@ -178,7 +178,7 @@ table {
   font-size: 10vw;
 }
 
-.header__mobile {
+.header__menu {
   position: absolute;
   top: 0;
   left: 0;
@@ -197,7 +197,7 @@ table {
           align-items: center;
 }
 
-.header__mobile__navigation {
+.header__menu__navigation {
   color: white;
   line-height: 4rem;
 }
