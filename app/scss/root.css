@@ -202,7 +202,24 @@ table {
     background: url(/images/desktop/image-hero.jpg) no-repeat;
     background-size: contain;
     height: 109vh;
+    width: 100%;
     padding-top: 3.8rem;
+  }
+  .header__menu__navigation__content {
+    padding-left: 2vw;
+    font-size: 2vw;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+  }
+  .header__slogan {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    border: 2px white solid;
+    text-align: left;
+    padding: 3vw;
+    font-size: 5vw;
+    width: 45vw;
+    margin-top: 10vh;
   }
   .main__header {
     display: -webkit-box;
@@ -215,12 +232,6 @@ table {
         -ms-flex-pack: justify;
             justify-content: space-between;
     color: white;
-  }
-  .header__menu__navigation__content {
-    padding-left: 10px;
-    font-size: 1.5rem;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: bold;
   }
 }
 
