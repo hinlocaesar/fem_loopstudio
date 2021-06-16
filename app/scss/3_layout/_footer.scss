@@ -5,16 +5,11 @@
     text-align: center;
     padding-top: 2rem;
 
-    &__icons{
-        padding-top: 2rem;
-        font-size: 7vw;
-    }
-
     &__navigation{
         padding-top: 2rem;
         &__option{
             padding:0.5rem;
-            font-size: 4vw;
+            font-size: 0.75rem;
         }
     }
 }
@@ -23,5 +18,4 @@
     padding-top: 1rem;
     color:$VeryDarkGray;
     font-size: 0.75rem;
-    padding-bottom: 15vw;
 }
