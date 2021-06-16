@@ -1,10 +1,41 @@
 @media only screen and (min-width: 600px) { //for desktop
+    @media only screen and (min-width: 1000px) { //for desktop
+    .about__container{
+        border: blue 2px solid;
+        margin-bottom:30vh;
+    }
+}
 
     .about{
-        border:solid 2px black;
-        width: 59vw;
-        text-align: left;
-        padding: 2.8rem;
+        @media only screen and (min-width: 1000px) { //for desktop
+         
+
+            position: absolute;
+            z-index: 1;
+            top:730px;
+            left:500px;
+            background-color: yellow;
+            border:solid 2px black;
+            max-width: 50vw;
+            text-align: left;
+            padding: 2.8rem;
+
+            .container__aboutImg{
+                width: 45rem;
+                text-align: center;
+            }
+        } //media query end for 100px
+
+        @media only screen and (max-width: 999px) { //for desktop
+            .container__aboutImg__link{
+                width: 45rem;
+                text-align: center;
+                border-radius: 50%;
+            }
+         
+          
+        }
+     
 
         &__title{
             font-family: $JosefinSans;
@@ -19,5 +50,7 @@
          
         }
     }
+
+
 
 }//media query end
