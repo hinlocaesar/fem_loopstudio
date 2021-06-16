@@ -1,0 +1,23 @@
+@media only screen and (min-width: 600px) { //for desktop
+
+    .about{
+        border:solid 2px black;
+        width: 59vw;
+        text-align: left;
+        padding: 2.8rem;
+
+        &__title{
+            font-family: $JosefinSans;
+            font-size:3rem;
+           
+        }
+        .about__content{
+            font-family: $JosefinSans;
+            font-size:1.5rem;
+           
+            color:$VeryDarkGray;
+         
+        }
+    }
+
+}//media query end

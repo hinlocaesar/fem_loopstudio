@@ -1,3 +1,4 @@
+@media only screen and (max-width: 600px) { //for desktop
 .container__aboutImg__link{
     width: 100%;
     text-align: center;
@@ -19,3 +20,4 @@
         color:$VeryDarkGray;
     }
 }
+}//media query end

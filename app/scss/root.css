@@ -200,10 +200,10 @@ table {
 @media only screen and (min-width: 600px) {
   .header {
     background: url(/images/desktop/image-hero.jpg) no-repeat;
-    background-size: contain;
-    height: 109vh;
+    background-size: cover;
     width: 100%;
     padding-top: 3.8rem;
+    height: 60vh;
   }
   .header__menu__navigation__content {
     padding-left: 2vw;
@@ -217,9 +217,9 @@ table {
     border: 2px white solid;
     text-align: left;
     padding: 3vw;
-    font-size: 5vw;
+    font-size: 4vw;
     width: 45vw;
-    margin-top: 10vh;
+    margin-top: 3.8rem;
   }
   .main__header {
     display: -webkit-box;
@@ -235,23 +235,41 @@ table {
   }
 }
 
-.container__aboutImg__link {
-  width: 100%;
-  text-align: center;
+@media only screen and (max-width: 600px) {
+  .container__aboutImg__link {
+    width: 100%;
+    text-align: center;
+  }
+  .about__title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 10vw;
+    text-align: center;
+  }
+  .about__content {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    color: dimgray;
+  }
 }
 
-.about__title {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 10vw;
-  text-align: center;
-}
-
-.about__content {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: center;
-  color: dimgray;
+@media only screen and (min-width: 600px) {
+  .about {
+    border: solid 2px black;
+    width: 59vw;
+    text-align: left;
+    padding: 2.8rem;
+  }
+  .about__title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3rem;
+  }
+  .about .about__content {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    color: dimgray;
+  }
 }
 
 .portfolio {

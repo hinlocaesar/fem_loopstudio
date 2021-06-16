@@ -2,10 +2,10 @@
 
    .header{
       background: url(/images/desktop/image-hero.jpg) no-repeat;
-      background-size: contain;
-      height: 109vh;
+      background-size: cover;
       width: 100%;
       padding-top: 3.8rem;
+     height: 60vh;
 
       &__menu__navigation__content{
          padding-left:2vw;
@@ -20,9 +20,11 @@
          border:2px white solid;
          text-align: left;
          padding:3vw;
-         font-size:5vw;
+         font-size:4vw;
          width: 45vw;
-         margin-top: 10vh;
+         margin-top: 3.8rem;
+      
+      
       }
       
    }
