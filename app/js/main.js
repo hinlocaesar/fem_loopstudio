@@ -16,27 +16,31 @@ const headerMobileContent = document.querySelector('.header__menu__navigation');
 
 
   if (x.matches) { // If media query matches
-            headerMobile.classList.remove('header__menu');
-            headerMobileContent.style.display = "none";
-            headerMobile.style.visibility="hidden";
+           headerMobileContent.style.display = "none"; 
+
+            //new
+        
             let menuOpen = false;
-              menuBtn.addEventListener('click', () => {
+              menuBtn.addEventListener('click', () => { //hamburger implementation
                 if(!menuOpen) {
                   menuBtn.classList.add('open');
                   headerMobile.classList.add('header__menu');
                   headerMobileContent.style.display = "block";
-                  menuOpen = true;
                   headerMobile.style.visibility="visible";
+                  menuOpen = true;
+             
                 } else {
                   menuBtn.classList.remove('open');
                   headerMobile.classList.remove('header__menu');
-                  menuOpen = false;
                   headerMobileContent.style.display = "none";
+                  menuOpen = false;
+                 
                 }
               }); // end hemburger
+              console.log("!!!!!!!!!!!!!!! HINLO MOBILE!!");
   } else {
     console.log("!!!!!!!!!!!!!!! HINLO DESKTOP!!");
-    headerMobileContent.style.display = "block";
+    headerMobileContent.style.display = "flex";
   }
 }
 

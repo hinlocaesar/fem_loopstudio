@@ -198,42 +198,21 @@ table {
 }
 
 @media only screen and (min-width: 600px) {
-  .header {
-    background-color: grey;
+  .main__header {
+    background-color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  /*
-.header{
-   background-color: blue;
-   height: 109vh;
-
-   &__nav{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-bottom: 13.3rem;
-
-   }
-
-   &__logo{
-      height: 1.6rem;
-      z-index:99;
-   }
-
-   &__menu__navigation{
-      width:100px;
-      background-color: yellow;
-      display: flex;
-     
-
-      &__content{
-         outline: 2px red solid;
-         margin-top: 10px;
-         width:50px;
-      }
-   }
-
-}
-*/
+  .header__menu__navigation__content {
+    padding: 10px;
+  }
 }
 
 .container__aboutImg__link {
