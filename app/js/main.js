@@ -1,4 +1,10 @@
 
+
+
+//behavior for desktop view
+function myFunction(x) {
+
+
 //// FOR HAMBURGER
 const menuBtn = document.querySelector('.menu-btn');
 const headerMobile = document.querySelector('.header__menu');
@@ -23,8 +29,8 @@ menuBtn.addEventListener('click', () => {
 
 
 
-//behavior for desktop view
-function myFunction(x) {
+
+
   if (x.matches) { // If media query matches
     headerMobileContent.style.display = "none";
   } else {
