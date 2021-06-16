@@ -1,13 +1,26 @@
 @media only screen and (min-width: 600px) { //for desktop
+
+   .header{
+      background: url(/images/desktop/image-hero.jpg) no-repeat;
+      background-size: contain;
+      height: 109vh;
+      padding-top: 3.8rem;
+      
+   }
+
    .main__header{
-      background-color: red;
       display: flex;
       align-items:center;
       justify-content: space-between;
+      color:white;
+   
    }
 
    .header__menu__navigation__content{
-      padding:10px;
+      padding-left:10px;
+      font-size: 1.5rem;
+      font-family: $JosefinSans;
+      font-weight: bold;
    }
 
 } //media query end
