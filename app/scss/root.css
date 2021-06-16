@@ -195,15 +195,10 @@ table {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  visibility: hidden;
 }
 
 .header__menu__navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: white;
   line-height: 4rem;
   font-size: 10vw;

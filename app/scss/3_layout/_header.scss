@@ -37,10 +37,12 @@ height: 109vh;
       display: flex;
       align-items: center;
       justify-content: flex-start;
+      visibility: hidden;
+
+ 
    
       &__navigation{
-         display: flex;
-         justify-content: center;
+     
          color:white;
          line-height: 4rem;
          font-size:10vw;
