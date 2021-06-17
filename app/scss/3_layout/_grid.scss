@@ -1,3 +1,4 @@
+@media only screen and (max-width: 600px) { //for desktop
 .portfolio{
     font-family: $JosefinSans;
     &__title{
@@ -32,3 +33,4 @@
 
     }
 }
+}/*media query end*/

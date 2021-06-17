@@ -37,9 +37,8 @@ const headerMobileContent = document.querySelector('.header__menu__navigation');
                  
                 }
               }); // end hemburger
-              console.log("!!!!!!!!!!!!!!! HINLO MOBILE!!");
+          
   } else {
-    console.log("!!!!!!!!!!!!!!! HINLO DESKTOP!!");
     headerMobileContent.style.display = "flex";
   }
 }

@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px) { //for 
+
+    .portfolio{
+        font-family: $JosefinSans;
+        &__grid{
+            background-color: red;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            &__card{
+                position: relative;
+
+                &__text{
+                 
+                position: absolute;
+   
+                color: white;
+                font-size: 5vw;
+                top:35vw;
+                left:  5vw;
+              
+
+                }
+            }
+            
+        }
+        
+    }
+
+
+}
