@@ -335,8 +335,9 @@ table {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .portfolio__grid__card {
     position: relative;
@@ -344,8 +345,8 @@ table {
   .portfolio__grid__card__text {
     position: absolute;
     color: white;
-    font-size: 5vw;
-    top: 35vw;
+    font-size: 3vw;
+    top: 80%;
     left: 5vw;
   }
 }

@@ -6,7 +6,8 @@
             background-color: red;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
+
             &__card{
                 position: relative;
 
@@ -15,8 +16,8 @@
                 position: absolute;
    
                 color: white;
-                font-size: 5vw;
-                top:35vw;
+                font-size: 3vw;
+                top:80%;
                 left:  5vw;
               
 
