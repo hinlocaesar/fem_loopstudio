@@ -9,17 +9,17 @@ Done-implement reset
 Done-Implement BG Image
 Done-Implement Logo
 Done-Implement Nav
-Done--Implement Hero
--Implement Article
--Implement Footer
--Hover states
+Done-Implement Hero
+Done-Implement Article
+Done-Implement Footer
+Done-Hover states
 
 ##Desktop
--Implement BG Image
--Implement Logo
--Implement Nav
--Implement Hero
--Implement Article
+Done-Implement BG Image
+Done-Implement Logo
+Done-Implement Nav
+Done-Implement Hero
+Done-Implement Article
 -Implement Footer
 -Hover states
 

@@ -1,0 +1,149 @@
+  <section class="about__container">
+      <div class="about margin_util_leftandright">
+        <div class="about__title">THE LEADER IN <br />INTERACTIVE VR</div>
+        <div class="about__content margin_util_topandbottom">
+          Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects for some of the best companies around the globe. Our
+          award-winning creations have transformed businesses through digital
+          experiences that bind to their brand.
+        </div>
+      </div>
+      <!--Section END-->
+    </section>
+
+    <section class="portfolio margin_util_leftandright">
+      <div class="portfolio__title">OUR CREATIONS</div>
+      <!-- FOR DESKTOP AND TABLET
+      <div class="portfolio__seeall">See all</div> 
+        -->
+
+      <div class="portfolio__grid">
+        <div class="portfolio__grid__card">
+          <img
+            class="portfolio__grid__card__img card__img1"
+            src="/images/mobile/image-deep-earth.jpg"
+            alt=""
+          />
+          <div class="portfolio__grid__card__text">
+            DEEP <br />
+            EARTH
+          </div>
+        </div>
+        <!--Card end-->
+
+        <div class="portfolio__grid__card">
+          <img
+            class="portfolio__grid__card__img card__img2"
+            src="/images/mobile/image-night-arcade.jpg"
+            alt=""
+          />
+          <div class="portfolio__grid__card__text">
+            NIGHT <br />
+            ARCADE
+          </div>
+        </div>
+        <!--Card end-->
+
+        <div class="portfolio__grid__card">
+          <img
+            class="portfolio__grid__card__img card__img3"
+            src="/images/mobile/image-soccer-team.jpg"
+            alt=""
+          />
+          <div class="portfolio__grid__card__text">
+            SOCCER <br />
+            TEAM VR
+          </div>
+        </div>
+        <!--Card end-->
+
+        <div class="portfolio__grid__card">
+          <img
+            class="portfolio__grid__card__img card__img4"
+            src="/images/mobile/image-grid.jpg"
+            alt=""
+          />
+          <div class="portfolio__grid__card__text">
+            THE <br />
+            GRID
+          </div>
+        </div>
+        <!--Card end-->
+
+        <div class="portfolio__grid__card">
+          <img
+            class="portfolio__grid__card__img card__img5"
+            src="/images/mobile/image-from-above.jpg"
+            alt=""
+          />
+          <div class="portfolio__grid__card__text">
+            FROM YP <br />
+            ABOVE VR
+          </div>
+        </div>
+        <!--Card end-->
+
+        <div class="portfolio__grid__card">
+          <img
+            class="portfolio__grid__card__img card__img6"
+            src="/images/mobile/image-pocket-borealis.jpg"
+            alt=""
+          />
+          <div class="portfolio__grid__card__text">
+            POCKET <br />
+            BOREALIS
+          </div>
+        </div>
+        <!--Card end-->
+
+        <div class="portfolio__grid__card">
+          <img
+            class="portfolio__grid__card__img card__img7"
+            src="/images/mobile/image-curiosity.jpg"
+            alt=""
+          />
+          <div class="portfolio__grid__card__text">
+            THE <br />
+            CURIOSITY
+          </div>
+        </div>
+        <!--Card end-->
+
+        <div class="portfolio__grid__card">
+          <img
+            class="portfolio__grid__card__img card__img8"
+            src="/images/mobile/image-fisheye.jpg"
+            alt=""
+          />
+          <div class="portfolio__grid__card__text">MAKE IT <br />FISHEYE</div>
+        </div>
+        <!--Card end-->
+      </div>
+      <!--Grid end-->
+    </section>
+
+    <!--Portfolio Grid end-->
+
+    <footer class="footer margin_util_leftandright">
+      <img class="header__logo" src="/images/logo.svg" alt="" />
+
+      <ul class="footer__navigation">
+        <li class="footer__navigation__option">About</li>
+        <li class="footer__navigation__option">Careers</li>
+        <li class="footer__navigation__option">Events</li>
+        <li class="footer__navigation__option">Products</li>
+        <li class="footer__navigation__option">Support</li>
+      </ul>
+
+      <footer class="footer__icons">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-pinterest"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+      </footer>
+      <script src="https://unpkg.com/ionicons@5.0/dist/ionicons.js"></script>
+
+      <div class="copyright margin_util_leftandright">
+        © 2021 Loopstudios. All rights reserved.
+      </div>
+    </footer>

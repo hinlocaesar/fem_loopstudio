@@ -141,10 +141,21 @@ table {
 
 @media only screen and (max-width: 600px) {
   .header {
-    background: url(/images/mobile/image-hero.jpg) no-repeat;
+    background: url(/images/mobile/image-hero.jpg) no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
     background-size: cover;
-    height: 109vh;
   }
+}
+
+@media only screen and (max-width: 600px) and (max-width: 999px) {
+  .header .container__aboutImg__link {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .header__nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -238,7 +249,8 @@ table {
 @media only screen and (max-width: 600px) {
   .container__aboutImg__link {
     width: 100%;
-    text-align: center;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .about__title {
     font-family: "Josefin Sans", sans-serif;
@@ -251,13 +263,6 @@ table {
     font-size: 1rem;
     text-align: center;
     color: dimgray;
-  }
-}
-
-@media only screen and (min-width: 600px) and (min-width: 1000px) {
-  .about__container {
-    border: blue 2px solid;
-    margin-bottom: 30vh;
   }
 }
 
@@ -276,14 +281,6 @@ table {
   .about .container__aboutImg {
     width: 45rem;
     text-align: center;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 999px) {
-  .about .container__aboutImg__link {
-    width: 45rem;
-    text-align: center;
-    border-radius: 50%;
   }
 }
 

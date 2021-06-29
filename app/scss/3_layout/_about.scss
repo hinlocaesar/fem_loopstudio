@@ -1,23 +1,23 @@
-@media only screen and (max-width: 600px) { //for desktop
-.container__aboutImg__link{
+@media only screen and (max-width: 600px) {
+  //for desktop
+  .container__aboutImg__link {
     width: 100%;
-    text-align: center;
-}
+    object-fit: contain;
+  }
 
-.about{
-
-    &__title{
-        font-family: $JosefinSans;
-        font-size:10vw;
-        text-align: center;
+  .about {
+    &__title {
+      font-family: $JosefinSans;
+      font-size: 10vw;
+      text-align: center;
     }
 
-    &__content{
-        font-family: $JosefinSans;
-        font-weight: bold;
-        font-size:1rem;
-        text-align: center;
-        color:$VeryDarkGray;
+    &__content {
+      font-family: $JosefinSans;
+      font-weight: bold;
+      font-size: 1rem;
+      text-align: center;
+      color: $VeryDarkGray;
     }
-}
-}//media query end
+  }
+} //media query end

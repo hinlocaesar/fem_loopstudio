@@ -1,160 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./app/scss/root.css">
-  
-  <title> Loopstudios landing page</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/a79f7c7124.js" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+  <title>Frontend Mentor | Loopstudios landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-
-  <header class="header">
-
-    <section class="main__header"><!--TEMP-->
-            <div class="header__nav">
-              <img class="header__logo margin_util_leftandright" src="/images/logo.svg" alt="">
-              <div class="menu-btn">
-                <div class="menu-btn__burger"></div>
-              </div>
-            </div> <!--Header end-->    
-
-            <div class="header__menu">
-                <ul class="header__menu__navigation margin_util_leftandright">
-                  <li class="header__menu__navigation__content">About</li>
-                  <li class="header__menu__navigation__content">Careers</li>
-                  <li class="header__menu__navigation__content">Events</li>
-                  <li class="header__menu__navigation__content">Products</li>
-                  <li class="header__menu__navigation__content">Support</li>
-                </ul>
-            </div> <!--Header menu end-->
-    </section>
-
-
-        <div class="header__slogan margin_util_leftandright">IMMERSIVE EXPERIENCES THAT DELIVER</div>
-
-    </header> <!--Header End-->
-
-        <div class="container__aboutImg margin_util_topandbottom margin_util_leftandright">
-          <img class="container__aboutImg__link"src="/images/mobile/image-interactive.jpg" alt="">
-        </div>
- 
-      <section class="about__container">
-        <div class="about margin_util_leftandright ">
-          <div class="about__title">
-              THE LEADER IN <br>INTERACTIVE VR
-          </div>
-          <div class="about__content margin_util_topandbottom">
-              Founded in 2011, Loopstudios has been producing world-class virtual reality 
-              projects for some of the best companies around the globe. Our award-winning 
-              creations have transformed businesses through digital experiences that bind 
-              to their brand.
-          </div>
-        </div><!--Section END-->
-      </section>
-
-
-
-      
-  <section class="portfolio margin_util_leftandright">
-      <div class="portfolio__title">OUR CREATIONS</div>
-        <!-- FOR DESKTOP AND TABLET
-      <div class="portfolio__seeall">See all</div> 
-        -->
-
-      <div class="portfolio__grid ">
-        <div class="portfolio__grid__card">
-          <img class="portfolio__grid__card__img card__img1"
-          src="/images/mobile/image-deep-earth.jpg" alt="">
-          <div class="portfolio__grid__card__text">DEEP <br> EARTH</div>
-        </div> <!--Card end-->
-
-        <div class="portfolio__grid__card">
-          <img class="portfolio__grid__card__img card__img2 "
-          src="/images/mobile/image-night-arcade.jpg" alt="">
-          <div class="portfolio__grid__card__text">NIGHT <br> ARCADE</div>
-        </div> <!--Card end-->
-
-        <div class="portfolio__grid__card">
-          <img class="portfolio__grid__card__img card__img3"
-          src="/images/mobile/image-soccer-team.jpg" alt="">
-          <div class="portfolio__grid__card__text">SOCCER <br> TEAM VR</div>
-        </div> <!--Card end-->
-
-        <div class="portfolio__grid__card">
-          <img class="portfolio__grid__card__img card__img4"
-          src="/images/mobile/image-grid.jpg" alt="">
-          <div class="portfolio__grid__card__text">THE <br> GRID</div>
-        </div> <!--Card end-->
-
-        <div class="portfolio__grid__card">
-          <img class="portfolio__grid__card__img card__img5"
-          src="/images/mobile/image-from-above.jpg" alt="">
-          <div class="portfolio__grid__card__text">FROM YP <br> ABOVE VR</div>
-        </div> <!--Card end-->
-
-        
-        <div class="portfolio__grid__card">
-          <img class="portfolio__grid__card__img card__img6"
-          src="/images/mobile/image-pocket-borealis.jpg" alt="">
-          <div class="portfolio__grid__card__text">POCKET <br> BOREALIS</div>
-        </div> <!--Card end-->
-
-        <div class="portfolio__grid__card">
-          <img class="portfolio__grid__card__img card__img7"
-          src="/images/mobile/image-curiosity.jpg" alt="">
-          <div class="portfolio__grid__card__text">THE <br> CURIOSITY</div>
-        </div> <!--Card end-->
-
-        <div class="portfolio__grid__card">
-          <img class="portfolio__grid__card__img card__img8"
-          src="/images/mobile/image-fisheye.jpg" alt="">
-          <div class="portfolio__grid__card__text">MAKE IT  <br>FISHEYE</div>
-        </div> <!--Card end-->
-
-      </div> <!--Grid end-->
-
-  </section>
-
-<!--Portfolio Grid end-->
-
-<footer class="footer margin_util_leftandright">
-
- 
-    <img class="header__logo " src="/images/logo.svg" alt="">
-  
-  <ul class="footer__navigation">
-    <li class="footer__navigation__option">About</li>
-    <li class="footer__navigation__option">Careers</li>
-    <li class="footer__navigation__option">Events</li>
-    <li class="footer__navigation__option">Products</li>
-    <li class="footer__navigation__option">Support</li>
-  </ul>
-
-  <footer class="footer__icons">
-    <ion-icon name="logo-facebook"></ion-icon>
-    <ion-icon name="logo-twitter"></ion-icon>
-    <ion-icon name="logo-pinterest"></ion-icon>
-    <ion-icon name="logo-instagram"></ion-icon>
-  </footer>
-  <script src="https://unpkg.com/ionicons@5.0/dist/ionicons.js"></script>
-
-  <div class="copyright margin_util_leftandright">
-     © 2021 Loopstudios. All rights reserved.
+  <div class="header-wrap">
+    <div class="header-logo"> <img src="./images/logo.svg" alt="logo"> </div>
+    <div class="menu-wrap">
+      <div class="menu-item">About <div class="menu-hover-line desktop"></div>
+      </div>
+      <div class="menu-item">Careers <div class="menu-hover-line desktop"></div>
+      </div>
+      <div class="menu-item">Events <div class="menu-hover-line desktop"></div>
+      </div>
+      <div class="menu-item">Products <div class="menu-hover-line desktop"></div>
+      </div>
+      <div class="menu-item">Support <div class="menu-hover-line desktop"></div>
+      </div>
+    </div>
+    <div class="ham-menu mobile"> <img src="./images/icon-hamburger.svg" alt="icon-hamburger"> </div>
+    <div class="menu-close mobile"> <img src="./images/icon-close.svg" alt="icon-close"> </div>
+    <div class="header-title">Immersive experiences that deliver</div>
+    <div class="mobile-menu-overlay"></div>
   </div>
-</footer>
 
-<script src="/app/js/main.js"></script>
-<script src="/app/js/grid.js"></script>
+  <div class="section-two-wrap">
+    <div class="section-two-img">
+      <img src="./images/desktop/image-interactive.jpg" alt="image-interactive">
+    </div>
+    <div class="section-two-content">
+      <div class="section-two-content-header">The leader in interactive VR</div>
+      <div class="section-two-content-desc">
+        Founded in 2011, Loopstudios has been producing world-class virtual reality
+        projects for some of the best companies around the globe. Our award-winning
+        creations have transformed businesses through digital experiences that bind
+        to their brand.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section-three-wrap">
+    <div class="section-three-title">Our creations</div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="./images/desktop/image-deep-earth.jpg" class="desktop" alt="image-deep-earth">
+        <img src="./images/mobile/image-deep-earth.jpg" class="mobile" alt="image-deep-earth">
+        <span>Deep <br> earth</span>
+        <div class="item-overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="./images/desktop/image-night-arcade.jpg" class="desktop" alt="image-night-arcade">
+        <img src="./images/mobile/image-night-arcade.jpg" class="mobile" alt="image-night-arcade">
+        <span>Night <br> arcade</span>
+        <div class="item-overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="./images/desktop/image-soccer-team.jpg" class="desktop" alt="image-soccer-team">
+        <img src="./images/mobile/image-soccer-team.jpg" class="mobile" alt="image-soccer-team">
+        <span>Soccer <br> team VR</span>
+        <div class="item-overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="./images/desktop/image-grid.jpg" class="desktop" alt="image-grid">
+        <img src="./images/mobile/image-grid.jpg" class="mobile" alt="image-grid">
+        <span>The <br> grid</span>
+        <div class="item-overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="./images/desktop/image-from-above.jpg" class="desktop" alt="image-from-above">
+        <img src="./images/mobile/image-from-above.jpg" class="mobile" alt="image-from-above">
+        <span>From up <br> above VR</span>
+        <div class="item-overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="./images/desktop/image-pocket-borealis.jpg" class="desktop" alt="image-pocket-borealis">
+        <img src="./images/mobile/image-pocket-borealis.jpg" class="mobile" alt="image-pocket-borealis">
+        <span>Pocket <br> borealis</span>
+        <div class="item-overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="./images/desktop/image-curiosity.jpg" class="desktop" alt="image-curiosity">
+        <img src="./images/mobile/image-curiosity.jpg" class="mobile" alt="image-curiosity">
+        <span>The <br> curiosity</span>
+        <div class="item-overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="./images/desktop/image-fisheye.jpg" class="desktop" alt="image-fisheye">
+        <img src="./images/mobile/image-fisheye.jpg" class="mobile" alt="image-fisheye">
+        <span>Make it <br> fisheye</span>
+        <div class="item-overlay"></div>
+      </div>
+    </div>
+    <div class="section-three-button">See all</div>
+  </div>
+
+  <div class="footer-wrap">
+    <div class="footer-logo"> <img src="./images/logo.svg" alt="logo"> </div>
+    <div class="menu-wrap">
+      <div class="menu-item">About <div class="menu-hover-line desktop"></div>
+      </div>
+      <div class="menu-item">Careers <div class="menu-hover-line desktop"></div>
+      </div>
+      <div class="menu-item">Events <div class="menu-hover-line desktop"></div>
+      </div>
+      <div class="menu-item">Products <div class="menu-hover-line desktop"></div>
+      </div>
+      <div class="menu-item">Support <div class="menu-hover-line desktop"></div>
+      </div>
+    </div>
+    <div class="socials">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-pinterest"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+    <div class="copyright"> © 2021 Loopstudios. All rights reserved.</div>
+  </div>
+
+
+
+
 </body>
+
 </html>
